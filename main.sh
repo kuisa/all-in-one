@@ -71,7 +71,7 @@ case $main_choice in
     echo -e "${GREEN}You selected: Inside VM${RESET}"
     echo "Running Inside VM Commands"
     check_curl
-    bash <(curl -s https://raw.githubusercontent.com/NothingTheking/all-in-one/refs/heads/main/cd/in-vm.sh)
+    bash <(curl -s https://raw.githubusercontent.com/kuisa/all-in-one/refs/heads/main/cd/in-vm.sh)
     ;;
 
   2)
@@ -129,7 +129,7 @@ EOF
   3)
     echo -e "${CYAN}Launching VM Manager...${RESET}"
     check_curl
-    bash <(curl -fsSL https://raw.githubusercontent.com/hopingboyz/vms/main/vm.sh)
+    bash <(curl -fsSL https://raw.githubusercontent.com/kuisa/vms/main/vm.sh)
     ;;
 
   4)
